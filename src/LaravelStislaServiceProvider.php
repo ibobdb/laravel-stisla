@@ -31,6 +31,9 @@ class LaravelStislaServiceProvider extends ServiceProvider
             $this->publishes([
                 __DIR__ . '/../views' => resource_path('views'),
             ]);
+            $this->publishes([
+                __DIR__ . '/../stisla' => public_path('stisla', 'public'),
+            ]);
             $this->commands([
                 LaravelStislaCommand::class
             ]);
