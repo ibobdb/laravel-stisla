@@ -1,0 +1,25 @@
+{
+    "name": "ibobdb/laravel-stisla",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "ibobdb",
+        "email": "bobynugraha19@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Ibobdb\\LaravelStisla\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/fortify": "^1.8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ibobdb\\LaravelStisla\\LaravelStislaServiceProvider"
+            ]
+        }
+    }
+}
