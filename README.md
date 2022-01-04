@@ -83,7 +83,7 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     });
 });
 ```
-
+This allows you to attach the verified middleware to any of your routes
 ## Features
 
 ---
